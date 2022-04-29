@@ -30,12 +30,11 @@ console.log(
     );
     
 const alturaTriangulo = 5.5;
-console.log("La altura del triángulo mide: " + alturaTriangulo + "cm");
-
 const perimetroTriangulo= ladoTri1 + ladoTri2 + baseTri; 
-console.log("El perimetro del triángulo mide: " + perimetroTriangulo + "cm");
-
 const areaTriangulo = (baseTri * alturaTriangulo) / 2;
+
+console.log("La altura del triángulo mide: " + alturaTriangulo + "cm");
+console.log("El perimetro del triángulo mide: " + perimetroTriangulo + "cm");
 console.log("El area del triángulo es de: " + areaTriangulo + "cm2");
 
 console.groupEnd();
